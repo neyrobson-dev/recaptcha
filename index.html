@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>reCAPTCHA</title>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+    	<form method="post" action="verify.php">
+        	<label>Nome:</label><input type="text" name="nome" /><br />
+        	<label>Email:</label><input type="email" name="email" /><br />        	
+        	<button type="submit">Enviar</button>
+        </form>
+		
+		<div class="g-recaptcha" data-sitekey="6LccSdkiAAAAAFnwCk3KKLb9JQnCQ7Izs80Tn1g6"></div>
+    </body>
+</html>
